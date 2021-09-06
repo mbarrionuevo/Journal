@@ -6,8 +6,8 @@ import {  startGoogleLogin, startLoginEmailPassword } from '../../actions/auth';
 
 export const LoginScreen = () => {
     const [formValues, handleInputChange] = useForm({
-        email: 'nando@gmail.com',
-        password: '123456'
+        email: '',
+        password: ''
     });
 
     const dispatch = useDispatch();
